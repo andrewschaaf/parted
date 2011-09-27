@@ -10,7 +10,7 @@ experimental.
 ``` js
 var parted = require('parted');
 
-var parser = new parted(type, options)
+var parser = new parted(contentType, options)
   , parts = {};
 
 parser.on('error', function(err) {
